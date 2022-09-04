@@ -1,0 +1,21 @@
+{
+  "title": "Default",
+  "autoInstallDxvk": false,
+  "autoInstallVkd3d": false,
+  "eos_enable": false,
+  "fsync_enable": true,
+  "esync_enable": true,
+  "eac_enable": false,
+  "battleye_enable": false,
+  "override_exe": "",
+  "start_params": "",
+  "env_var": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "winetricks": "",
+  "delete_file": [],
+  "copy_file": []
+}

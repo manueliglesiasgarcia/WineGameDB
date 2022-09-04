@@ -1,0 +1,31 @@
+{
+  "title": "Fall Guys",
+  "autoInstallDxvk": true,
+  "autoInstallVkd3d": true,
+  "eos_enable": true,
+  "fsync_enable": false,
+  "esync_enable": false,
+  "eac_enable": true,
+  "battleye_enable": false,
+  "override_exe": "${GAMEDIR}/FallGuys_client_game.exe",
+  "start_params": "",
+  "env_var": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "winetricks": "",
+  "delete_file": [
+    {
+      "src": "${GAMEDIR}/FallGuys_client_game_Data/Plugins/x86_64/easyanticheat_x64.so"
+    }
+  ],
+  "copy_file": [
+    {
+      "src": "${GAMEDIR}/EasyAntiCheat/easyanticheat_x64.so",
+      "dst": "${GAMEDIR}/FallGuys_client_game_Data/Plugins/x86_64/easyanticheat_x64.so",
+      "symlink": true
+    }
+  ]
+}
