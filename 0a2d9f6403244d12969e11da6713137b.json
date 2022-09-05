@@ -1,7 +1,8 @@
 {
   "title": "Fall Guys",
-  "autoInstallDxvk": true,
-  "autoInstallVkd3d": true,
+  "dxvk_required": true,
+  "vkd3d_proton_required": true,
+  "wined3d_required": false,
   "eos_enable": true,
   "fsync_enable": false,
   "esync_enable": false,
