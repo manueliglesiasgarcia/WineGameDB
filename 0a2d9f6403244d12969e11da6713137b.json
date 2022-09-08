@@ -16,7 +16,7 @@
       "value": ""
     }
   ],
-  "winetricks": "",
+  "winetricks": "corefonts",
   "delete_file": [
     {
       "src": "${GAMEDIR}/FallGuys_client_game_Data/Plugins/x86_64/easyanticheat_x64.so"
