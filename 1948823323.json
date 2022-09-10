@@ -1,0 +1,76 @@
+{
+    "title": "SPORE",
+    "dxvk_required": true,
+    "vkd3d_proton_required": false,
+    "wined3d_required": false,
+    "eos_enable": false,
+    "fsync_enable": true,
+    "esync_enable": true,
+    "eac_enable": false,
+    "battleye_enable": false,
+    "override_exe": "",
+    "start_params": "",
+    "env_var": [],
+    "winetricks": [],
+    "delete_file": [],
+    "copy_file": [],
+    "regedit": [
+      {
+        "folder": "HKLM\\Software\\Wow6432Node\\Electronic Arts",
+        "name": "",
+        "type": "",
+        "value": "",
+        "arch": ""
+      },
+      {
+        "folder": "HKLM\\Software\\Wow6432Node\\Electronic Arts\\SPORE",
+        "name": "",
+        "type": "",
+        "value": "",
+        "arch": ""
+      },
+      {
+        "folder": "HKLM\\Software\\Wow6432Node\\Electronic Arts\\SPORE",
+        "name": "AppDir",
+        "type": "REG_SZ",
+        "value": "SPORE",
+        "arch": ""
+      },
+      {
+        "folder": "HKLM\\Software\\Wow6432Node\\Electronic Arts\\SPORE",
+        "name": "DataDir",
+        "type": "REG_SZ",
+        "value": "${GAMEDIR}\\Data\\",
+        "arch": ""
+      },
+      {
+        "folder": "HKLM\\Software\\Wow6432Node\\Electronic Arts\\SPORE",
+        "name": "InstallLoc",
+        "type": "REG_SZ",
+        "value": "${GAMEDIR}",
+        "arch": ""
+      },
+      {
+        "folder": "HKLM\\Software\\Wow6432Node\\Electronic Arts\\SPORE",
+        "name": "PlayerDir",
+        "type": "REG_SZ",
+        "value": "My Spore Creation",
+        "arch": ""
+      },
+      {
+        "folder": "HKLM\\Software\\Wow6432Node\\Electronic Arts\\SPORE",
+        "name": "ReIndexYesOrNo",
+        "type": "REG_DWORD",
+        "value": "0",
+        "arch": ""
+      },
+      {
+        "folder": "HKLM\\Software\\Wow6432Node\\Electronic Arts\\SPORE",
+        "name": "InstallCompleted",
+        "type": "REG_DWORD",
+        "value": "1",
+        "arch": ""
+      }
+    ]
+  }
+  
