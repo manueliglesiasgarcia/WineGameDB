@@ -1,5 +1,8 @@
 {
+  "id": "0a2d9f6403244d12969e11da6713137b",
   "title": "Fall Guys",
+  "required": true,
+  "executed": false,
   "dxvk_required": true,
   "vkd3d_proton_required": true,
   "wined3d_required": false,

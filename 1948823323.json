@@ -1,5 +1,8 @@
 {
+    "id": "1948823323",
     "title": "SPORE",
+    "required": true,
+    "executed": false,
     "dxvk_required": true,
     "vkd3d_proton_required": false,
     "wined3d_required": false,
