@@ -1,0 +1,22 @@
+{
+    "id": "1456460669",
+    "title": "Baldur's Gate 3",
+    "required": true,
+    "executed": false,
+    "dxvk_required": true,
+    "vkd3d_proton_required": false,
+    "wined3d_required": false,
+    "eos_enable": false,
+    "fsync_enable": true,
+    "esync_enable": true,
+    "eac_enable": false,
+    "battleye_enable": false,
+    "override_exe": "${GAMEDIR}/bin/bg3_dx11.exe",
+    "start_params": "",
+    "env_var": [],
+    "winetricks": [],
+    "delete_file": [],
+    "copy_file": [],
+    "regedit": []
+  }
+  
